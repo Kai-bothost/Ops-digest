@@ -1,0 +1,15 @@
+{
+  "name": "ops-digest-bot",
+  "version": "1.0.0",
+  "description": "Daily Slack digest of messages that tag the Operations user group",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@slack/web-api": "^7.0.0"
+  }
+}
